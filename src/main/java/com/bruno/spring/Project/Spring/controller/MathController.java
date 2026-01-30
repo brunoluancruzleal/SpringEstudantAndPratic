@@ -1,6 +1,6 @@
 package com.bruno.spring.Project.Spring.controller;
 
-import com.bruno.spring.Project.Spring.exceptions.ArgumentMathillegalExeception;
+import com.bruno.spring.Project.Spring.services.MathServices;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -10,89 +10,58 @@ import java.util.List;
 public class MathController {
 
 
-    @RequestMapping("/sum/{numberOne}/{numberTwo}")
+    private MathServices mathServices;
+
+    public MathController(MathServices mathServices) {
+        this.mathServices = mathServices;
+    }
+
+    @GetMapping("/sum/{numberOne}/{numberTwo}")
     public Double sum(
             @PathVariable String numberOne,
-            @PathVariable String numberTwo) {
-        if (!isNumber(numberOne) || isNumber(numberTwo))
-            throw new ArgumentMathillegalExeception("Illegal argument found");
-
-        return Double.parseDouble(numberOne) + Double.parseDouble(numberTwo);
+            @PathVariable String numberTwo
+    ) {
+        return mathServices.sum(numberOne, numberTwo);
     }
 
-    @RequestMapping("/sub/{numberOne}/{numberTwo}")
+    @GetMapping("/subi/{numberOne}/{numberTwo}")
     public Double subitracao(
             @PathVariable String numberOne,
-            @PathVariable String numberTwo) {
-        if (!isNumber(numberOne) || !isNumber(numberTwo))
-            throw new ArgumentMathillegalExeception("Illegal argument found");
-
-        return Double.parseDouble(numberOne) - Double.parseDouble(numberTwo);
+            @PathVariable String numberTwo
+    ) {
+        return mathServices.subtracao(numberOne, numberTwo);
     }
 
-    @RequestMapping("/mult/{numberOne}/{numberTwo}")
-    public Double mult(
+    @GetMapping("/multi/{numberOne}/{numberTwo}")
+    public Double multi(
             @PathVariable String numberOne,
-            @PathVariable String numberTwo) {
-        if (!isNumber(numberOne) || !isNumber(numberTwo))
-            throw new ArgumentMathillegalExeception("Illegal argument found");
-
-        return Double.parseDouble(numberOne) * Double.parseDouble(numberTwo);
+            @PathVariable String numberTwo
+    ) {
+        return mathServices.mult(numberOne, numberTwo);
     }
 
-    @RequestMapping("/div/{numberOne}/{numberTwo}")
-    public Double div(
+    @GetMapping("/div/{numberOne}/{numberTwo}")
+    public Double divisao(
             @PathVariable String numberOne,
-            @PathVariable String numberTwo) {
-        if (!isNumber(numberOne) || !isNumber(numberTwo))
-            throw new ArgumentMathillegalExeception("Illegal argument found");
-
-        if (!validNumberZero(numberTwo)) throw new ArgumentMathillegalExeception("Illegal argument found");
-
-        return Double.parseDouble(numberOne) / Double.parseDouble(numberTwo);
-    }
-
-    @GetMapping("/media")
-    public Double media(@RequestParam List<Double> value) {
-
-        if (value == null || value.isEmpty()) throw new ArgumentMathillegalExeception("The array cannot be empty.");
-
-        double soma = 0;
-        for (Double listMedia : value) {
-            soma += listMedia;
-        }
-
-        return soma / value.size();
+            @PathVariable String numberTwo
+    ) {
+        return mathServices.div(numberOne, numberTwo);
     }
 
     @GetMapping("/raiz/{number}")
     public Double raizQuadrada(
-            @PathVariable String number){
+            @PathVariable String number
 
-        if (!isNumber(number)) throw new ArgumentMathillegalExeception("Illegal argument found");
-
-        return Math.sqrt(Double.parseDouble(number));
+    ) {
+        return mathServices.raizQuadrada(number);
     }
 
+    @GetMapping("/media")
+    public Double media(
+            @RequestParam List<Double> value
 
-    private boolean validNumberZero(String numberTwo) {
-        if (Integer.parseInt(numberTwo) == 0) {
-            throw new ArgumentMathillegalExeception(
-                    "The second argument cannot be zero ");
-        }
-        return false;
-    }
-
-
-    private boolean isNumber(String number) {
-        if (number == null || number.isEmpty()) return false;
-
-        try {
-            Double.parseDouble(number.replace(",", "."));
-            return true;
-        } catch (NumberFormatException e) {
-            return false;
-        }
+    ) {
+        return mathServices.media(value);
     }
 
 }
