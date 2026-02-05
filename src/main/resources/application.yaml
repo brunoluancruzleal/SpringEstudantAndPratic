@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: Project-Spring
-
-server:
-  port: 3000

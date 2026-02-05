@@ -1,28 +1,19 @@
-package com.bruno.spring.Project.Spring.model;
-
-import jakarta.persistence.*;
+package com.bruno.spring.Project.Spring.data.dto;
 
 import java.io.Serializable;
 import java.util.Objects;
 
-@Entity
-@Table(name = "Person")
-public class Person implements Serializable {
+
+public class PersonDTO implements Serializable {
 
     private final long serialVersionUID = 1L;
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(nullable = false, length = 100)
     private String name;
-    @Column(nullable = false, length = 20)
     private String fistName;
-    @Column(nullable = false, length = 10)
     private String lastName;
-    @Column(nullable = false, length = 150)
     private String address;
 
-    public Person() {
+    public PersonDTO() {
     }
 
     public Long getId() {
@@ -67,7 +58,7 @@ public class Person implements Serializable {
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof Person person)) return false;
+        if (!(o instanceof PersonDTO person)) return false;
         return id == person.id && Objects.equals(name, person.name);
     }
 

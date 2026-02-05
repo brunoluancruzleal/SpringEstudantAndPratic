@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: Project-Spring
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/Spring_project
+    username: root
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+      open-in-view: false
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: WARN
+  file:
+    name: logs/spring-application.log
+  pattern:
+    console: "%d{yyyy-MM / HH:mm} %-5level %logger{36} - %msg%n"

@@ -1,6 +1,6 @@
 package com.bruno.spring.Project.Spring.exceptions.Handler;
 
-import com.bruno.spring.Project.Spring.exceptions.ArgumentMathillegalExeception;
+import com.bruno.spring.Project.Spring.exceptions.ResourceNotFoudException;
 import com.bruno.spring.Project.Spring.exceptions.ExceptionResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -27,14 +27,14 @@ public class GlobalExceptionHandling extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    @ExceptionHandler(ArgumentMathillegalExeception.class)
-    public final ResponseEntity<ExceptionResponse> handleArgumentExceptions(Exception ex, WebRequest request) {
+    @ExceptionHandler(ResourceNotFoudException.class)
+    public final ResponseEntity<ExceptionResponse> handleNotFoudException(Exception ex, WebRequest request) {
         ExceptionResponse response = new ExceptionResponse(
                 new Date(),
                 ex.getMessage(),
                 request.getDescription(false)
         );
 
-        return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
     }
 }

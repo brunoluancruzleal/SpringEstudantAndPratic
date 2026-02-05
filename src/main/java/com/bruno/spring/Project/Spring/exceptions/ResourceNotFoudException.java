@@ -3,9 +3,9 @@ package com.bruno.spring.Project.Spring.exceptions;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-@ResponseStatus(HttpStatus.BAD_REQUEST)
-public class ArgumentMathillegalExeception extends RuntimeException {
-    public ArgumentMathillegalExeception(String message) {
+@ResponseStatus(HttpStatus.NOT_FOUND)
+public class ResourceNotFoudException extends RuntimeException {
+    public ResourceNotFoudException(String message) {
         super(message);
     }
 }
