@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
+
 @RestController
 @RequestMapping("/person")
 public class PersonController {
@@ -18,17 +21,22 @@ public class PersonController {
         this.personServices = personServices;
     }
 
-    @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/{id}", produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
+            consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public PersonDTO findById(@PathVariable Long id) {
-        return personServices.findById(id);
+        PersonDTO person = personServices.findById(id);
+        hateosLink(person);
+        return person;
     }
 
-    @GetMapping(value = "/all", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/all", produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public List<PersonDTO> findAll() {
         return personServices.findAll();
     }
 
-    @PostMapping(value = "/create", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = "/create",
+            produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
+            consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public PersonDTO creatingPerson(@RequestBody PersonDTO person) {
         return personServices.createPerson(person);
     }
@@ -40,6 +48,17 @@ public class PersonController {
 
     @DeleteMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public void deletePerson(@PathVariable Long id) {
+
         personServices.deletePerson(id);
     }
+
+
+    private void hateosLink(PersonDTO person) {
+        person.add(linkTo(methodOn(PersonController.class).findById(person.getId())).withSelfRel());
+        person.add(linkTo(methodOn(PersonController.class).findAll()).withRel("all-persons"));
+        person.add(linkTo(methodOn(PersonController.class).updatingPerson(person)).withRel("update-person"));
+        person.add(linkTo(methodOn(PersonController.class).creatingPerson(person)).withRel("create-person"));
+//        person.add(linkTo(methodOn(PersonController.class).deletePerson(person.getId())).withRel("delete-person"));
+    }
+
 }

@@ -9,14 +9,15 @@ import java.util.Objects;
 @Table(name = "Person")
 public class Person implements Serializable {
 
-    private final long serialVersionUID = 1L;
+    @Transient
+    private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(nullable = false, length = 100)
     private String name;
     @Column(nullable = false, length = 20)
-    private String fistName;
+    private String firstName;
     @Column(nullable = false, length = 10)
     private String lastName;
     @Column(nullable = false, length = 150)
@@ -41,12 +42,12 @@ public class Person implements Serializable {
         this.name = name;
     }
 
-    public String getFistName() {
-        return fistName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFistName(String fistName) {
-        this.fistName = fistName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {
@@ -81,7 +82,7 @@ public class Person implements Serializable {
         return "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", fistName='" + fistName + '\'' +
+                ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", address='" + address + '\'' +
                 '}';

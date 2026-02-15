@@ -1,17 +1,35 @@
 package com.bruno.spring.Project.Spring.data.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import org.springframework.hateoas.RepresentationModel;
+
 import java.io.Serializable;
+import java.util.Date;
 import java.util.Objects;
 
 
-public class PersonDTO implements Serializable {
+public class PersonDTO extends RepresentationModel<PersonDTO> implements Serializable {
 
-    private final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
     private Long id;
     private String name;
-    private String fistName;
+    private String firstName;
     private String lastName;
     private String address;
+    @JsonInclude(JsonInclude.Include.NON_EMPTY)
+    private String phoneNumber;
+
+    @JsonFormat(pattern = "dd/MM/yyyy")
+    private Date birthDate;
+
+    public Date getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
+    }
 
     public PersonDTO() {
     }
@@ -32,12 +50,12 @@ public class PersonDTO implements Serializable {
         this.name = name;
     }
 
-    public String getFistName() {
-        return fistName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFistName(String fistName) {
-        this.fistName = fistName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {
@@ -56,6 +74,14 @@ public class PersonDTO implements Serializable {
         this.address = address;
     }
 
+    public String getFoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setFoneNumber(String foneNumber) {
+        this.phoneNumber = foneNumber;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof PersonDTO person)) return false;
@@ -72,7 +98,7 @@ public class PersonDTO implements Serializable {
         return "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", fistName='" + fistName + '\'' +
+                ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", address='" + address + '\'' +
                 '}';
