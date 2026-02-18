@@ -34,6 +34,12 @@ public class PersonDTO extends RepresentationModel<PersonDTO> implements Seriali
     public PersonDTO() {
     }
 
+    public PersonDTO(Long id, String name, String firstName) {
+        this.id = id;
+        this.name = name;
+        this.firstName = firstName;
+    }
+
     public Long getId() {
         return id;
     }

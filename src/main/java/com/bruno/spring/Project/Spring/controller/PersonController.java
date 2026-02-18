@@ -31,19 +31,26 @@ public class PersonController {
 
     @GetMapping(value = "/all", produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public List<PersonDTO> findAll() {
-        return personServices.findAll();
+        var all = personServices.findAll();
+        all.forEach(this::hateosLink);
+        return all;
     }
 
     @PostMapping(value = "/create",
             produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE},
             consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public PersonDTO creatingPerson(@RequestBody PersonDTO person) {
-        return personServices.createPerson(person);
+
+        var createdPerson = personServices.createPerson(person);
+        hateosLink(createdPerson);
+        return createdPerson;
     }
 
     @PutMapping("/update")
     public PersonDTO updatingPerson(@RequestBody PersonDTO person) {
-        return personServices.updatePerson(person);
+        var updatedPerson = personServices.updatePerson(person);
+        hateosLink(updatedPerson);
+        return updatedPerson;
     }
 
     @DeleteMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)

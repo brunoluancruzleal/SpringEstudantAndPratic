@@ -1,27 +1,27 @@
-2026-02-15T15:44:06.968-03:00  INFO 11224 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 11224 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-15T15:44:06.995-03:00  INFO 11224 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-15T15:44:07.141-03:00  INFO 11224 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-15T15:44:07.142-03:00  INFO 11224 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-15T15:44:08.300-03:00  INFO 11224 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-15T15:44:08.496-03:00  INFO 11224 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 167 ms. Found 1 JPA repository interface.
-2026-02-15T15:44:10.117-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-15T15:44:10.153-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-15T15:44:10.154-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-15T15:44:10.229-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-15T15:44:10.230-03:00  INFO 11224 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3087 ms
-2026-02-15T15:44:11.248-03:00  INFO 11224 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-15T15:44:11.622-03:00  INFO 11224 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ec32e9d
-2026-02-15T15:44:11.624-03:00  INFO 11224 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-15T15:44:11.765-03:00  INFO 11224 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
-2026-02-15T15:44:11.982-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.177s)
-2026-02-15T15:44:12.003-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 2
-2026-02-15T15:44:12.008-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
-2026-02-15T15:44:12.300-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-15T15:44:12.619-03:00  INFO 11224 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
-2026-02-15T15:44:12.764-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-02-15T15:44:13.483-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-15T15:44:13.613-03:00  WARN 11224 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-02-15T15:44:13.662-03:00  INFO 11224 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-02-18T15:23:14.371-03:00  INFO 5200 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 5200 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
+2026-02-18T15:23:14.386-03:00  INFO 5200 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
+2026-02-18T15:23:14.520-03:00  INFO 5200 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-18T15:23:14.521-03:00  INFO 5200 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-18T15:23:16.259-03:00  INFO 5200 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-18T15:23:16.437-03:00  INFO 5200 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interface.
+2026-02-18T15:23:17.983-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-02-18T15:23:18.018-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-18T15:23:18.018-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-18T15:23:18.103-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-18T15:23:18.104-03:00  INFO 5200 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3582 ms
+2026-02-18T15:23:19.101-03:00  INFO 5200 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-18T15:23:19.376-03:00  INFO 5200 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42a49ef3
+2026-02-18T15:23:19.378-03:00  INFO 5200 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-18T15:23:19.548-03:00  INFO 5200 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
+2026-02-18T15:23:19.703-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.113s)
+2026-02-18T15:23:19.724-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 2
+2026-02-18T15:23:19.732-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
+2026-02-18T15:23:19.955-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-18T15:23:20.051-03:00  INFO 5200 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-18T15:23:20.101-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-18T15:23:20.664-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-18T15:23:20.736-03:00  WARN 5200 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-02-18T15:23:20.758-03:00  INFO 5200 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 5.5.5
@@ -29,293 +29,75 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-02-15T15:44:14.695-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-15T15:44:14.698-03:00  INFO 11224 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T15:44:15.172-03:00  WARN 11224 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-15T15:44:15.935-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-02-15T15:44:16.002-03:00  INFO 11224 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-02-15T15:44:16.025-03:00  INFO 11224 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 10.303 seconds (process running for 11.448)
-2026-02-15T15:44:35.639-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-02-15T15:44:35.640-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-02-15T15:44:35.643-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-02-15T15:44:36.237-03:00  WARN 11224 --- [Project-Spring] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation]
-2026-02-15T15:45:25.582-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-3] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T15:45:25.695-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-3] c.g.dozermapper.core.util.RuntimeUtils   : OSGi support is false
-2026-02-15T15:45:25.704-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 7.0.0, Thread Name: http-nio-8080-exec-3
-2026-02-15T15:45:25.707-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
-2026-02-15T15:45:25.708-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-2026-02-15T15:45:25.711-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-3] c.g.d.core.el.ELExpressionFactory        : jakarta.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
-2026-02-15T15:45:25.847-03:00  WARN 11224 --- [Project-Spring] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class com.bruno.spring.Project.Spring.data.dto.PersonDTO] with preset Content-Type 'null']
-2026-02-15T15:45:50.328-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-6] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T15:45:50.339-03:00  WARN 11224 --- [Project-Spring] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class com.bruno.spring.Project.Spring.data.dto.PersonDTO] with preset Content-Type 'null']
-2026-02-15T15:45:56.268-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-7] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T15:46:13.015-03:00  INFO 11224 --- [Project-Spring] [http-nio-8080-exec-8] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T15:46:13.033-03:00  WARN 11224 --- [Project-Spring] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class com.bruno.spring.Project.Spring.data.dto.PersonDTO] with preset Content-Type 'null']
-2026-02-15T15:46:47.989-03:00  INFO 11224 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-02-15T15:46:48.025-03:00  INFO 11224 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-02-15T15:46:48.028-03:00  INFO 11224 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T15:46:48.034-03:00  INFO 11224 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-15T15:46:48.043-03:00  INFO 11224 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-02-15T15:46:52.682-03:00  INFO 3108 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 3108 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-15T15:46:52.693-03:00  INFO 3108 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-15T15:46:52.875-03:00  INFO 3108 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-15T15:46:52.876-03:00  INFO 3108 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-15T15:46:54.250-03:00  INFO 3108 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-15T15:46:54.403-03:00  INFO 3108 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interface.
-2026-02-15T15:46:55.832-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-15T15:46:55.867-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-15T15:46:55.868-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-15T15:46:56.035-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-15T15:46:56.036-03:00  INFO 3108 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3159 ms
-2026-02-15T15:46:56.894-03:00  INFO 3108 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-15T15:46:57.504-03:00  INFO 3108 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50dd260a
-2026-02-15T15:46:57.516-03:00  INFO 3108 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-15T15:46:57.706-03:00  INFO 3108 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
-2026-02-15T15:46:57.845-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.085s)
-2026-02-15T15:46:57.886-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 2
-2026-02-15T15:46:57.893-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
-2026-02-15T15:46:58.210-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-15T15:46:58.304-03:00  INFO 3108 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
-2026-02-15T15:46:58.379-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-02-15T15:46:59.452-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-15T15:46:59.715-03:00  WARN 3108 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-02-15T15:46:59.806-03:00  INFO 3108 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 5.5.5
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-02-15T15:47:02.893-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-15T15:47:02.901-03:00  INFO 3108 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T15:47:03.466-03:00  WARN 3108 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-15T15:47:05.063-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-02-15T15:47:05.206-03:00  INFO 3108 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-02-15T15:47:05.237-03:00  INFO 3108 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 13.676 seconds (process running for 14.402)
-2026-02-15T15:47:11.778-03:00  INFO 3108 --- [Project-Spring] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-02-15T15:47:11.780-03:00  INFO 3108 --- [Project-Spring] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-02-15T15:47:11.785-03:00  INFO 3108 --- [Project-Spring] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2026-02-15T15:47:11.927-03:00  INFO 3108 --- [Project-Spring] [http-nio-8080-exec-2] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T15:47:12.088-03:00  INFO 3108 --- [Project-Spring] [http-nio-8080-exec-2] c.g.dozermapper.core.util.RuntimeUtils   : OSGi support is false
-2026-02-15T15:47:12.102-03:00  INFO 3108 --- [Project-Spring] [http-nio-8080-exec-2] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 7.0.0, Thread Name: http-nio-8080-exec-2
-2026-02-15T15:47:12.112-03:00  INFO 3108 --- [Project-Spring] [http-nio-8080-exec-2] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
-2026-02-15T15:47:12.113-03:00  INFO 3108 --- [Project-Spring] [http-nio-8080-exec-2] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-2026-02-15T15:47:12.118-03:00  INFO 3108 --- [Project-Spring] [http-nio-8080-exec-2] c.g.d.core.el.ELExpressionFactory        : jakarta.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
-2026-02-15T15:47:16.015-03:00  INFO 3108 --- [Project-Spring] [http-nio-8080-exec-3] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T15:47:16.067-03:00  WARN 3108 --- [Project-Spring] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class com.bruno.spring.Project.Spring.data.dto.PersonDTO] with preset Content-Type 'null']
-2026-02-15T15:47:54.092-03:00  INFO 3108 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-02-15T15:47:54.156-03:00  INFO 3108 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-02-15T15:47:54.163-03:00  INFO 3108 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T15:47:54.172-03:00  INFO 3108 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-15T15:47:54.187-03:00  INFO 3108 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-02-15T15:47:59.775-03:00  INFO 5384 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 5384 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-15T15:47:59.834-03:00  INFO 5384 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-15T15:47:59.957-03:00  INFO 5384 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-15T15:47:59.963-03:00  INFO 5384 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-15T15:48:01.517-03:00  INFO 5384 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-15T15:48:01.656-03:00  INFO 5384 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
-2026-02-15T15:48:03.279-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-15T15:48:03.314-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-15T15:48:03.316-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-15T15:48:03.495-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-15T15:48:03.505-03:00  INFO 5384 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3536 ms
-2026-02-15T15:48:05.033-03:00  INFO 5384 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-15T15:48:05.823-03:00  INFO 5384 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6039813a
-2026-02-15T15:48:05.838-03:00  INFO 5384 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-15T15:48:06.076-03:00  INFO 5384 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
-2026-02-15T15:48:06.336-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.184s)
-2026-02-15T15:48:06.404-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 2
-2026-02-15T15:48:06.409-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
-2026-02-15T15:48:06.645-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-15T15:48:06.702-03:00  INFO 5384 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
-2026-02-15T15:48:06.870-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-02-15T15:48:07.589-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-15T15:48:07.742-03:00  WARN 5384 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-02-15T15:48:07.764-03:00  INFO 5384 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 5.5.5
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-02-15T15:48:08.800-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-15T15:48:08.805-03:00  INFO 5384 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T15:48:09.387-03:00  WARN 5384 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-15T15:48:11.011-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-02-15T15:48:11.120-03:00  INFO 5384 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-02-15T15:48:11.145-03:00  INFO 5384 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 12.732 seconds (process running for 13.574)
-2026-02-15T15:49:18.919-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-02-15T15:49:18.921-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-02-15T15:49:18.926-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-02-15T15:49:19.065-03:00  WARN 5384 --- [Project-Spring] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
-2026-02-15T15:49:47.439-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-3] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T15:49:47.519-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-3] c.g.dozermapper.core.util.RuntimeUtils   : OSGi support is false
-2026-02-15T15:49:47.528-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-3] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 7.0.0, Thread Name: http-nio-8080-exec-3
-2026-02-15T15:49:47.534-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
-2026-02-15T15:49:47.535-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-3] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-2026-02-15T15:49:47.539-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-3] c.g.d.core.el.ELExpressionFactory        : jakarta.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
-2026-02-15T15:50:03.420-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-4] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T15:50:46.463-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-5] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T15:50:46.472-03:00  WARN 5384 --- [Project-Spring] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class com.bruno.spring.Project.Spring.data.dto.PersonDTO] with preset Content-Type 'null']
-2026-02-15T15:50:51.051-03:00  WARN 5384 --- [Project-Spring] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
-2026-02-15T15:51:04.460-03:00  WARN 5384 --- [Project-Spring] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
-2026-02-15T15:51:12.506-03:00  WARN 5384 --- [Project-Spring] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
-2026-02-15T15:51:20.748-03:00  INFO 5384 --- [Project-Spring] [http-nio-8080-exec-10] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T15:55:13.543-03:00  INFO 5384 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-02-15T15:55:13.589-03:00  INFO 5384 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-02-15T15:55:13.597-03:00  INFO 5384 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T15:55:13.602-03:00  INFO 5384 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-15T15:55:13.611-03:00  INFO 5384 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-02-15T16:00:58.679-03:00  INFO 16380 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 16380 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-15T16:00:58.691-03:00  INFO 16380 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-15T16:00:58.997-03:00  INFO 16380 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-15T16:00:58.999-03:00  INFO 16380 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-15T16:01:02.256-03:00  INFO 16380 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-15T16:01:02.451-03:00  INFO 16380 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162 ms. Found 1 JPA repository interface.
-2026-02-15T16:01:05.265-03:00  INFO 16380 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-15T16:01:05.313-03:00  INFO 16380 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-15T16:01:05.314-03:00  INFO 16380 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-15T16:01:05.429-03:00  INFO 16380 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-15T16:01:05.430-03:00  INFO 16380 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6423 ms
-2026-02-15T16:01:07.017-03:00  INFO 16380 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-15T16:01:07.849-03:00  INFO 16380 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9372083
-2026-02-15T16:01:07.856-03:00  INFO 16380 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-15T16:01:07.902-03:00  WARN 16380 --- [Project-Spring] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 5.5
-2026-02-15T16:01:07.904-03:00  INFO 16380 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-15T16:01:07.921-03:00  INFO 16380 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-02-15T16:01:07.935-03:00  INFO 16380 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2026-02-15T16:01:07.964-03:00  INFO 16380 --- [Project-Spring] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+2026-02-18T15:23:21.690-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18T15:23:21.694-03:00  INFO 5200 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-18T15:23:22.214-03:00  WARN 5200 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-18T15:23:22.575-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-02-18T15:23:23.467-03:00  WARN 5200 --- [Project-Spring] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'modelConverterRegistrar' defined in class path resource [org/springdoc/core/configuration/SpringDocConfiguration.class]: Unsatisfied dependency expressed through method 'modelConverterRegistrar' parameter 0: Error creating bean with name 'collectionModelContentConverter' defined in class path resource [org/springdoc/core/configuration/SpringDocHateoasConfiguration.class]: Unsatisfied dependency expressed through method 'collectionModelContentConverter' parameter 0: Error creating bean with name 'hateoasHalProvider': Invocation of init method failed
+2026-02-18T15:23:23.469-03:00  INFO 5200 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-18T15:23:23.473-03:00  INFO 5200 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-18T15:23:23.518-03:00  INFO 5200 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-18T15:23:23.521-03:00  INFO 5200 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-02-18T15:23:23.600-03:00  INFO 5200 --- [Project-Spring] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-02-15T16:01:08.048-03:00 ERROR 16380 --- [Project-Spring] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+2026-02-18T15:23:23.729-03:00 ERROR 5200 --- [Project-Spring] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 5.5
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:328) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:973) ~[spring-context-6.2.15.jar:6.2.15]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.15.jar:6.2.15]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.10.jar:3.5.10]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.10.jar:3.5.10]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.10.jar:3.5.10]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.10.jar:3.5.10]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.10.jar:3.5.10]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.10.jar:3.5.10]
-	at com.bruno.spring.Project.Spring.Statup.main(Statup.java:10) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.10.jar:3.5.10]
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 5.5
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-6.2.15.jar:6.2.15]
-	... 15 common frames omitted
-Caused by: org.flywaydb.core.api.FlywayException: Unsupported Database: MySQL 5.5
-	at org.flywaydb.core.internal.database.DatabaseTypeRegister.lambda$getDatabaseTypeForConnection$7(DatabaseTypeRegister.java:134) ~[flyway-core-11.7.2.jar:na]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at org.flywaydb.core.internal.database.DatabaseTypeRegister.getDatabaseTypeForConnection(DatabaseTypeRegister.java:134) ~[flyway-core-11.7.2.jar:na]
-	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:77) ~[flyway-core-11.7.2.jar:na]
-	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:136) ~[flyway-core-11.7.2.jar:na]
-	at org.flywaydb.core.Flyway.migrate(Flyway.java:188) ~[flyway-core-11.7.2.jar:na]
-	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-3.5.10.jar:3.5.10]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.15.jar:6.2.15]
-	... 22 common frames omitted
+***************************
+APPLICATION FAILED TO START
+***************************
 
-2026-02-15T16:02:30.427-03:00  INFO 6576 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 6576 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-15T16:02:30.438-03:00  INFO 6576 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-15T16:02:30.667-03:00  INFO 6576 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-15T16:02:30.668-03:00  INFO 6576 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-15T16:02:32.275-03:00  INFO 6576 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-15T16:02:32.445-03:00  INFO 6576 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 1 JPA repository interface.
-2026-02-15T16:02:34.163-03:00  INFO 6576 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-15T16:02:34.180-03:00  INFO 6576 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-15T16:02:34.180-03:00  INFO 6576 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-15T16:02:34.281-03:00  INFO 6576 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-15T16:02:34.282-03:00  INFO 6576 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3609 ms
-2026-02-15T16:02:36.000-03:00  INFO 6576 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-15T16:02:36.570-03:00  INFO 6576 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7acb9a3d
-2026-02-15T16:02:36.574-03:00  INFO 6576 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-15T16:02:36.593-03:00  WARN 6576 --- [Project-Spring] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 5.5
-2026-02-15T16:02:36.593-03:00  INFO 6576 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-15T16:02:36.605-03:00  INFO 6576 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-02-15T16:02:36.611-03:00  INFO 6576 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2026-02-15T16:02:36.645-03:00  INFO 6576 --- [Project-Spring] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+Description:
 
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-02-15T16:02:36.843-03:00 ERROR 6576 --- [Project-Spring] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 5.5
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:328) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:973) ~[spring-context-6.2.15.jar:6.2.15]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.15.jar:6.2.15]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.10.jar:3.5.10]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.10.jar:3.5.10]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.10.jar:3.5.10]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.10.jar:3.5.10]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.10.jar:3.5.10]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.10.jar:3.5.10]
-	at com.bruno.spring.Project.Spring.Statup.main(Statup.java:10) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.10.jar:3.5.10]
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Unsupported Database: MySQL 5.5
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-6.2.15.jar:6.2.15]
-	... 15 common frames omitted
-Caused by: org.flywaydb.core.api.FlywayException: Unsupported Database: MySQL 5.5
-	at org.flywaydb.core.internal.database.DatabaseTypeRegister.lambda$getDatabaseTypeForConnection$7(DatabaseTypeRegister.java:134) ~[flyway-core-11.7.2.jar:na]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at org.flywaydb.core.internal.database.DatabaseTypeRegister.getDatabaseTypeForConnection(DatabaseTypeRegister.java:134) ~[flyway-core-11.7.2.jar:na]
-	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:77) ~[flyway-core-11.7.2.jar:na]
-	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:136) ~[flyway-core-11.7.2.jar:na]
-	at org.flywaydb.core.Flyway.migrate(Flyway.java:188) ~[flyway-core-11.7.2.jar:na]
-	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-3.5.10.jar:3.5.10]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.15.jar:6.2.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.15.jar:6.2.15]
-	... 22 common frames omitted
+    org.springdoc.core.providers.HateoasHalProvider.isHalEnabled(HateoasHalProvider.java:78)
 
-2026-02-15T16:03:39.672-03:00  INFO 1452 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 1452 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-15T16:03:39.700-03:00  INFO 1452 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-15T16:03:39.923-03:00  INFO 1452 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-15T16:03:39.924-03:00  INFO 1452 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-15T16:03:44.487-03:00  INFO 1452 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-15T16:03:44.852-03:00  INFO 1452 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 251 ms. Found 1 JPA repository interface.
-2026-02-15T16:03:47.731-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-15T16:03:47.770-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-15T16:03:47.771-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-15T16:03:47.933-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-15T16:03:47.935-03:00  INFO 1452 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8009 ms
-2026-02-15T16:03:49.263-03:00  INFO 1452 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-15T16:03:50.349-03:00  INFO 1452 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17634f9f
-2026-02-15T16:03:50.353-03:00  INFO 1452 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-15T16:03:50.929-03:00  INFO 1452 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
-2026-02-15T16:03:51.163-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.133s)
-2026-02-15T16:03:51.235-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 2
-2026-02-15T16:03:51.266-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
-2026-02-15T16:03:51.915-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-15T16:03:52.425-03:00  INFO 1452 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
-2026-02-15T16:03:52.763-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-02-15T16:03:54.212-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-15T16:03:54.590-03:00  WARN 1452 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-02-15T16:03:54.674-03:00  INFO 1452 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+The following method did not exist:
+
+    'boolean org.springframework.boot.autoconfigure.hateoas.HateoasProperties.getUseHalAsDefaultJsonMediaType()'
+
+The calling method's class, org.springdoc.core.providers.HateoasHalProvider, was loaded from the following location:
+
+    jar:file:/C:/Users/Bruno/.m2/repository/org/springdoc/springdoc-openapi-starter-common/2.1.0/springdoc-openapi-starter-common-2.1.0.jar!/org/springdoc/core/providers/HateoasHalProvider.class
+
+The called method's class, org.springframework.boot.autoconfigure.hateoas.HateoasProperties, is available from the following locations:
+
+    jar:file:/C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.5.10/spring-boot-autoconfigure-3.5.10.jar!/org/springframework/boot/autoconfigure/hateoas/HateoasProperties.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    org.springframework.boot.autoconfigure.hateoas.HateoasProperties: file:/C:/Users/Bruno/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.5.10/spring-boot-autoconfigure-3.5.10.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springdoc.core.providers.HateoasHalProvider and org.springframework.boot.autoconfigure.hateoas.HateoasProperties
+
+2026-02-18T15:34:11.747-03:00  INFO 2916 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 2916 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
+2026-02-18T15:34:11.752-03:00  INFO 2916 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
+2026-02-18T15:34:11.847-03:00  INFO 2916 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-18T15:34:11.847-03:00  INFO 2916 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-18T15:34:13.295-03:00  INFO 2916 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-18T15:34:13.433-03:00  INFO 2916 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 1 JPA repository interface.
+2026-02-18T15:34:14.659-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-02-18T15:34:14.699-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-18T15:34:14.699-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-18T15:34:14.774-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-18T15:34:14.775-03:00  INFO 2916 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2926 ms
+2026-02-18T15:34:15.447-03:00  INFO 2916 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-18T15:34:15.663-03:00  INFO 2916 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@141794a2
+2026-02-18T15:34:15.667-03:00  INFO 2916 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-18T15:34:15.853-03:00  INFO 2916 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
+2026-02-18T15:34:16.027-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.102s)
+2026-02-18T15:34:16.046-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 2
+2026-02-18T15:34:16.050-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
+2026-02-18T15:34:16.251-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-18T15:34:16.465-03:00  INFO 2916 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-18T15:34:16.554-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-18T15:34:17.025-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-18T15:34:17.093-03:00  WARN 2916 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-02-18T15:34:17.115-03:00  INFO 2916 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 5.5.5
@@ -323,225 +105,33 @@ Caused by: org.flywaydb.core.api.FlywayException: Unsupported Database: MySQL 5.
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-02-15T16:03:58.194-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-15T16:03:58.200-03:00  INFO 1452 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T16:03:58.874-03:00  WARN 1452 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-15T16:04:00.123-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-02-15T16:04:00.220-03:00  INFO 1452 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-02-15T16:04:00.245-03:00  INFO 1452 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 22.683 seconds (process running for 23.922)
-2026-02-15T16:04:06.733-03:00  INFO 1452 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-02-15T16:04:06.833-03:00  INFO 1452 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-02-15T16:04:06.846-03:00  INFO 1452 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T16:04:06.875-03:00  INFO 1452 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-15T16:04:06.906-03:00  INFO 1452 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-02-15T16:05:31.264-03:00  INFO 14344 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 14344 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-15T16:05:31.277-03:00  INFO 14344 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-15T16:05:31.545-03:00  INFO 14344 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-15T16:05:31.546-03:00  INFO 14344 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-15T16:05:34.088-03:00  INFO 14344 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-15T16:05:34.273-03:00  INFO 14344 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 1 JPA repository interface.
-2026-02-15T16:05:36.588-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-15T16:05:36.637-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-15T16:05:36.637-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-15T16:05:36.760-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-15T16:05:36.761-03:00  INFO 14344 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5213 ms
-2026-02-15T16:05:37.756-03:00  INFO 14344 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-15T16:05:38.118-03:00  INFO 14344 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3756da31
-2026-02-15T16:05:38.120-03:00  INFO 14344 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-15T16:05:38.494-03:00  INFO 14344 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
-2026-02-15T16:05:38.672-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.110s)
-2026-02-15T16:05:38.715-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 2
-2026-02-15T16:05:38.723-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
-2026-02-15T16:05:38.908-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-15T16:05:39.040-03:00  INFO 14344 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
-2026-02-15T16:05:39.163-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-02-15T16:05:39.983-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-15T16:05:40.081-03:00  WARN 14344 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-02-15T16:05:40.111-03:00  INFO 14344 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 5.5.5
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-02-15T16:05:41.294-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-15T16:05:41.298-03:00  INFO 14344 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T16:05:41.709-03:00  WARN 14344 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-15T16:05:43.818-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-02-15T16:05:44.078-03:00  INFO 14344 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-02-15T16:05:44.144-03:00  INFO 14344 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 14.738 seconds (process running for 16.235)
-2026-02-15T16:05:49.479-03:00  INFO 14344 --- [Project-Spring] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-02-15T16:05:49.480-03:00  INFO 14344 --- [Project-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-02-15T16:05:49.484-03:00  INFO 14344 --- [Project-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2026-02-15T16:05:49.658-03:00  INFO 14344 --- [Project-Spring] [http-nio-8080-exec-1] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T16:05:49.897-03:00  INFO 14344 --- [Project-Spring] [http-nio-8080-exec-1] c.g.dozermapper.core.util.RuntimeUtils   : OSGi support is false
-2026-02-15T16:05:49.932-03:00  INFO 14344 --- [Project-Spring] [http-nio-8080-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 7.0.0, Thread Name: http-nio-8080-exec-1
-2026-02-15T16:05:49.949-03:00  INFO 14344 --- [Project-Spring] [http-nio-8080-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
-2026-02-15T16:05:49.952-03:00  INFO 14344 --- [Project-Spring] [http-nio-8080-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-2026-02-15T16:05:49.965-03:00  INFO 14344 --- [Project-Spring] [http-nio-8080-exec-1] c.g.d.core.el.ELExpressionFactory        : jakarta.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
-2026-02-15T16:06:01.632-03:00  INFO 14344 --- [Project-Spring] [http-nio-8080-exec-3] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T16:06:18.414-03:00  INFO 14344 --- [Project-Spring] [http-nio-8080-exec-4] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T16:06:22.081-03:00  INFO 14344 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-02-15T16:06:22.121-03:00  INFO 14344 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-02-15T16:06:22.125-03:00  INFO 14344 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T16:06:22.129-03:00  INFO 14344 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-15T16:06:22.143-03:00  INFO 14344 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-02-15T17:14:31.439-03:00  INFO 2940 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 2940 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-15T17:14:31.442-03:00  INFO 2940 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-15T17:14:31.570-03:00  INFO 2940 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-15T17:14:31.571-03:00  INFO 2940 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-15T17:14:32.829-03:00  INFO 2940 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-15T17:14:32.937-03:00  INFO 2940 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
-2026-02-15T17:14:34.173-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-15T17:14:34.194-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-15T17:14:34.194-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-15T17:14:34.257-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-15T17:14:34.258-03:00  INFO 2940 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2685 ms
-2026-02-15T17:14:34.965-03:00  INFO 2940 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-15T17:14:35.321-03:00  INFO 2940 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23185718
-2026-02-15T17:14:35.327-03:00  INFO 2940 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-15T17:14:35.530-03:00  INFO 2940 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
-2026-02-15T17:14:35.640-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.052s)
-2026-02-15T17:14:35.682-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 2
-2026-02-15T17:14:35.690-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
-2026-02-15T17:14:35.883-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-15T17:14:36.029-03:00  INFO 2940 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
-2026-02-15T17:14:36.078-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-02-15T17:14:36.600-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-15T17:14:36.684-03:00  WARN 2940 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-02-15T17:14:36.714-03:00  INFO 2940 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 5.5.5
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-02-15T17:14:37.772-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-15T17:14:37.780-03:00  INFO 2940 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T17:14:38.130-03:00  WARN 2940 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-15T17:14:38.972-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-02-15T17:14:39.052-03:00  INFO 2940 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-02-15T17:14:39.072-03:00  INFO 2940 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 8.449 seconds (process running for 9.341)
-2026-02-15T17:14:57.776-03:00  INFO 2940 --- [Project-Spring] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-02-15T17:14:57.777-03:00  INFO 2940 --- [Project-Spring] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-02-15T17:14:57.782-03:00  INFO 2940 --- [Project-Spring] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2026-02-15T17:14:57.951-03:00  INFO 2940 --- [Project-Spring] [http-nio-8080-exec-2] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T17:14:58.141-03:00  INFO 2940 --- [Project-Spring] [http-nio-8080-exec-2] c.g.dozermapper.core.util.RuntimeUtils   : OSGi support is false
-2026-02-15T17:14:58.151-03:00  INFO 2940 --- [Project-Spring] [http-nio-8080-exec-2] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 7.0.0, Thread Name: http-nio-8080-exec-2
-2026-02-15T17:14:58.158-03:00  INFO 2940 --- [Project-Spring] [http-nio-8080-exec-2] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
-2026-02-15T17:14:58.159-03:00  INFO 2940 --- [Project-Spring] [http-nio-8080-exec-2] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-2026-02-15T17:14:58.164-03:00  INFO 2940 --- [Project-Spring] [http-nio-8080-exec-2] c.g.d.core.el.ELExpressionFactory        : jakarta.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
-2026-02-15T17:15:39.089-03:00  INFO 2940 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-02-15T17:15:39.122-03:00  INFO 2940 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-02-15T17:15:39.127-03:00  INFO 2940 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T17:15:39.131-03:00  INFO 2940 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-15T17:15:39.142-03:00  INFO 2940 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-02-15T17:18:04.504-03:00  INFO 724 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 724 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-15T17:18:04.507-03:00  INFO 724 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-15T17:18:04.592-03:00  INFO 724 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-15T17:18:04.592-03:00  INFO 724 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-15T17:18:05.642-03:00  INFO 724 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-15T17:18:05.767-03:00  INFO 724 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interface.
-2026-02-15T17:18:07.084-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-15T17:18:07.107-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-15T17:18:07.107-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-15T17:18:07.198-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-15T17:18:07.200-03:00  INFO 724 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2606 ms
-2026-02-15T17:18:07.985-03:00  INFO 724 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-15T17:18:08.210-03:00  INFO 724 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70b1d1af
-2026-02-15T17:18:08.212-03:00  INFO 724 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-15T17:18:08.305-03:00  INFO 724 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
-2026-02-15T17:18:08.363-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.036s)
-2026-02-15T17:18:08.383-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 2
-2026-02-15T17:18:08.387-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
-2026-02-15T17:18:08.675-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-15T17:18:08.840-03:00  INFO 724 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
-2026-02-15T17:18:08.903-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-02-15T17:18:09.599-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-15T17:18:09.687-03:00  WARN 724 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-02-15T17:18:09.705-03:00  INFO 724 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 5.5.5
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-02-15T17:18:10.858-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-15T17:18:10.860-03:00  INFO 724 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T17:18:11.217-03:00  WARN 724 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-15T17:18:12.200-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-02-15T17:18:12.276-03:00  INFO 724 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-02-15T17:18:12.296-03:00  INFO 724 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 8.491 seconds (process running for 9.089)
-2026-02-15T17:18:36.174-03:00  INFO 724 --- [Project-Spring] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-02-15T17:18:36.176-03:00  INFO 724 --- [Project-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-02-15T17:18:36.178-03:00  INFO 724 --- [Project-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-02-15T17:18:36.296-03:00  INFO 724 --- [Project-Spring] [http-nio-8080-exec-1] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T17:18:36.512-03:00  INFO 724 --- [Project-Spring] [http-nio-8080-exec-1] c.g.dozermapper.core.util.RuntimeUtils   : OSGi support is false
-2026-02-15T17:18:36.526-03:00  INFO 724 --- [Project-Spring] [http-nio-8080-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 7.0.0, Thread Name: http-nio-8080-exec-1
-2026-02-15T17:18:36.534-03:00  INFO 724 --- [Project-Spring] [http-nio-8080-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
-2026-02-15T17:18:36.534-03:00  INFO 724 --- [Project-Spring] [http-nio-8080-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-2026-02-15T17:18:36.538-03:00  INFO 724 --- [Project-Spring] [http-nio-8080-exec-1] c.g.d.core.el.ELExpressionFactory        : jakarta.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
-2026-02-15T17:18:48.564-03:00  INFO 724 --- [Project-Spring] [http-nio-8080-exec-3] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T17:19:20.895-03:00  INFO 724 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-02-15T17:19:20.931-03:00  INFO 724 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-02-15T17:19:20.935-03:00  INFO 724 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T17:19:20.939-03:00  INFO 724 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-15T17:19:20.950-03:00  INFO 724 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-02-15T17:45:42.580-03:00  INFO 6832 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 6832 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-15T17:45:42.584-03:00  INFO 6832 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-15T17:45:42.699-03:00  INFO 6832 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-15T17:45:42.699-03:00  INFO 6832 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-15T17:45:43.834-03:00  INFO 6832 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-15T17:45:43.930-03:00  INFO 6832 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
-2026-02-15T17:45:44.954-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-15T17:45:44.982-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-15T17:45:44.982-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-15T17:45:45.040-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-15T17:45:45.040-03:00  INFO 6832 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2339 ms
-2026-02-15T17:45:45.619-03:00  INFO 6832 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-15T17:45:45.952-03:00  INFO 6832 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1dc718ae
-2026-02-15T17:45:45.953-03:00  INFO 6832 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-15T17:45:46.085-03:00  INFO 6832 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
-2026-02-15T17:45:46.221-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.087s)
-2026-02-15T17:45:46.241-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 2
-2026-02-15T17:45:46.248-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
-2026-02-15T17:45:46.512-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-15T17:45:46.686-03:00  INFO 6832 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
-2026-02-15T17:45:46.746-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-02-15T17:45:47.376-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-15T17:45:47.473-03:00  WARN 6832 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-02-15T17:45:47.493-03:00  INFO 6832 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 5.5.5
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-02-15T17:45:48.402-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-15T17:45:48.409-03:00  INFO 6832 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T17:45:48.869-03:00  WARN 6832 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-15T17:45:49.838-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-02-15T17:45:49.909-03:00  INFO 6832 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-02-15T17:45:49.930-03:00  INFO 6832 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 8.303 seconds (process running for 9.075)
-2026-02-15T17:46:38.716-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-02-15T17:46:38.717-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-02-15T17:46:38.719-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-02-15T17:46:39.002-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-1] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T17:46:39.133-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-1] c.g.dozermapper.core.util.RuntimeUtils   : OSGi support is false
-2026-02-15T17:46:39.146-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-1] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 7.0.0, Thread Name: http-nio-8080-exec-1
-2026-02-15T17:46:39.154-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
-2026-02-15T17:46:39.155-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-1] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-2026-02-15T17:46:39.160-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-1] c.g.d.core.el.ELExpressionFactory        : jakarta.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
-2026-02-15T17:46:47.829-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-3] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T17:46:51.526-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-10] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T17:46:55.732-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-5] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T17:46:57.162-03:00  INFO 6832 --- [Project-Spring] [http-nio-8080-exec-6] c.b.s.P.Spring.services.PersonServices   : Finding one person!
-2026-02-15T17:47:05.257-03:00  INFO 6832 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-02-15T17:47:05.293-03:00  INFO 6832 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-02-15T17:47:05.297-03:00  INFO 6832 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-02-15T17:47:05.301-03:00  INFO 6832 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-15T17:47:05.313-03:00  INFO 6832 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-18T15:34:18.279-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18T15:34:18.283-03:00  INFO 2916 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-18T15:34:19.022-03:00  WARN 2916 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-18T15:34:20.195-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-02-18T15:34:20.271-03:00  INFO 2916 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-02-18T15:34:20.298-03:00  INFO 2916 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 9.337 seconds (process running for 10.136)
+2026-02-18T15:34:20.308-03:00  WARN 2916 --- [Project-Spring] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-02-18T15:34:20.309-03:00  WARN 2916 --- [Project-Spring] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-02-18T15:34:34.989-03:00  INFO 2916 --- [Project-Spring] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-18T15:34:34.989-03:00  INFO 2916 --- [Project-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-18T15:34:34.989-03:00  INFO 2916 --- [Project-Spring] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-02-18T15:34:36.205-03:00  INFO 2916 --- [Project-Spring] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 653 ms
+2026-02-18T15:35:05.540-03:00  INFO 2916 --- [Project-Spring] [http-nio-8080-exec-10] c.b.s.P.Spring.services.PersonServices   : Finding all people!
+2026-02-18T15:35:05.915-03:00  INFO 2916 --- [Project-Spring] [http-nio-8080-exec-10] c.g.dozermapper.core.util.RuntimeUtils   : OSGi support is false
+2026-02-18T15:35:05.923-03:00  INFO 2916 --- [Project-Spring] [http-nio-8080-exec-10] c.g.d.core.DozerBeanMapperBuilder        : Initializing Dozer. Version: 7.0.0, Thread Name: http-nio-8080-exec-10
+2026-02-18T15:35:05.938-03:00  INFO 2916 --- [Project-Spring] [http-nio-8080-exec-10] d.c.c.r.LegacyPropertiesSettingsResolver : Trying to find Dozer configuration file: dozer.properties
+2026-02-18T15:35:05.940-03:00  INFO 2916 --- [Project-Spring] [http-nio-8080-exec-10] d.c.c.r.LegacyPropertiesSettingsResolver : Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+2026-02-18T15:35:05.940-03:00  INFO 2916 --- [Project-Spring] [http-nio-8080-exec-10] c.g.d.core.el.ELExpressionFactory        : jakarta.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
+2026-02-18T15:35:22.475-03:00  WARN 2916 --- [Project-Spring] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
+2026-02-18T15:35:28.768-03:00  WARN 2916 --- [Project-Spring] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
+2026-02-18T15:35:29.601-03:00  WARN 2916 --- [Project-Spring] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
+2026-02-18T15:35:30.247-03:00  WARN 2916 --- [Project-Spring] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
+2026-02-18T15:35:38.808-03:00  WARN 2916 --- [Project-Spring] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
+2026-02-18T15:35:39.519-03:00  WARN 2916 --- [Project-Spring] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
+2026-02-18T15:35:40.028-03:00  WARN 2916 --- [Project-Spring] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
+2026-02-18T15:36:28.110-03:00  INFO 2916 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-18T15:36:28.149-03:00  INFO 2916 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-02-18T15:36:28.154-03:00  INFO 2916 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-18T15:36:28.158-03:00  INFO 2916 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-18T15:36:28.170-03:00  INFO 2916 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
