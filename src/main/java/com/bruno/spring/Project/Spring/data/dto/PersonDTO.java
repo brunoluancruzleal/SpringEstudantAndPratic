@@ -2,6 +2,7 @@ package com.bruno.spring.Project.Spring.data.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import io.swagger.v3.oas.annotations.media.Schema;
 import org.springframework.hateoas.RepresentationModel;
 
 import java.io.Serializable;
@@ -12,12 +13,18 @@ import java.util.Objects;
 public class PersonDTO extends RepresentationModel<PersonDTO> implements Serializable {
 
     private static final long serialVersionUID = 1L;
+    @Schema(description = "Unique identifier of the Person.", example = "1")
     private Long id;
+    @Schema(description = "Name of the Person.", example = "Bruno")
     private String name;
+    @Schema(description = "First name of the Person.", example = "Bruno")
     private String firstName;
+    @Schema(description = "Last name of the Person.", example = "Bruno")
     private String lastName;
+    @Schema(description = "Address of the Person.", example = "123 Main St, Anytown, USA")
     private String address;
     @JsonInclude(JsonInclude.Include.NON_EMPTY)
+    @Schema(description = "Phone number of the Person.", example = "+55 99999-9999")
     private String phoneNumber;
 
     @JsonFormat(pattern = "dd/MM/yyyy")
