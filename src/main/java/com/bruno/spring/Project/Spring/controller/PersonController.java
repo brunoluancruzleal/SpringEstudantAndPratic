@@ -64,7 +64,7 @@ public class PersonController implements PersonControllerDoc {
         person.add(linkTo(methodOn(PersonController.class).findAll()).withRel("all-persons"));
         person.add(linkTo(methodOn(PersonController.class).updatingPerson(person)).withRel("update-person"));
         person.add(linkTo(methodOn(PersonController.class).creatingPerson(person)).withRel("create-person"));
-//        person.add(linkTo(methodOn(PersonController.class).deletePerson(person.getId())).withRel("delete-person"));
+ //       person.add(linkTo(methodOn(PersonController.class).deletePerson(person.getId())).withRel("delete-person").withType("Delete"));
     }
 
 }

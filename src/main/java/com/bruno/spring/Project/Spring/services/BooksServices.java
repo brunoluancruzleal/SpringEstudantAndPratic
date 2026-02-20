@@ -31,4 +31,28 @@ public class BooksServices {
         );
         return mapper.toDTO(entity);
     }
+
+    public BookDTO createBook(BookDTO bookDTO) {
+        Book book = mapper.toEntity(bookDTO);
+        Book savedBook = repository.save(book);
+        return mapper.toDTO(savedBook);
+    }
+
+    public BookDTO updateBook(BookDTO bookDTO) {
+        Book entity = repository.findById(bookDTO.getId()).orElseThrow(
+                () -> new ResourceNotFoudException("Book not found"));
+
+        entity.setAuthor(bookDTO.getAuthor());
+        entity.setTitle(bookDTO.getTitle());
+        entity.setPrice(bookDTO.getPrice());
+
+        Book save = repository.save(entity);
+        return mapper.toDTO(save);
+    }
+
+    public void deleteBook(Long id){
+        Book entity = repository.findById(id).orElseThrow(
+                () -> new ResourceNotFoudException("Book not found"));
+        repository.delete(entity);
+    }
 }

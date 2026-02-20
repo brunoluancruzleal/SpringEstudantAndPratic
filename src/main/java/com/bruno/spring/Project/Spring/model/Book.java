@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "Book")
+@Table(name = "books")
 public class Book implements Serializable {
 
     @Serial
@@ -22,7 +22,7 @@ public class Book implements Serializable {
     @Column(name = "launch_date")
     @CreationTimestamp
     private LocalDateTime launchDate;
-    @Column(nullable = false, precision = 10, scale = 2)
+    @Column(nullable = false)
     private BigDecimal price;
     private String title;
 
