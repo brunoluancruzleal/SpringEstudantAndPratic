@@ -2,6 +2,7 @@ package com.bruno.spring.Project.Spring.model;
 
 import jakarta.persistence.*;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -9,6 +10,7 @@ import java.util.Objects;
 @Table(name = "Person")
 public class Person implements Serializable {
 
+    @Serial
     @Transient
     private static final long serialVersionUID = 1L;
     @Id
@@ -24,6 +26,14 @@ public class Person implements Serializable {
     private String address;
 
     public Person() {
+    }
+
+    public Person(Long id, String name, String firstName, String lastName, String address) {
+        this.id = id;
+        this.name = name;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address = address;
     }
 
     public Long getId() {
