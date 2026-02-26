@@ -2,18 +2,21 @@ package com.bruno.spring.Project.Spring.services;
 
 
 import com.bruno.spring.Project.Spring.data.dto.PersonDTO;
+import com.bruno.spring.Project.Spring.data.dto.PersonPatchDTO;
 import com.bruno.spring.Project.Spring.exceptions.ResourceNotFoudException;
+import com.bruno.spring.Project.Spring.mapper.BookMapper;
 import com.bruno.spring.Project.Spring.model.Person;
 import com.bruno.spring.Project.Spring.repository.PersonRepository;
+import jakarta.transaction.Transactional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
-import static com.bruno.spring.Project.Spring.mapper.ObjectMapper.parseListObjects;
 import static com.bruno.spring.Project.Spring.mapper.ObjectMapper.parseObject;
 
 @Service
@@ -26,9 +29,22 @@ public class PersonServices {
     @Autowired
     PersonRepository repository;
 
-    public List<PersonDTO> findAll() {
+    @Autowired
+    BookMapper bookMapper;
+
+    public Page<PersonDTO> findAll(Pageable pageable) {
         logger.info("Finding all people!");
-        return parseListObjects(repository.findAll(), PersonDTO.class);
+
+        Page<Person> all = repository.findAll(pageable);
+
+
+        Page<PersonDTO> map = all.map(person -> {
+            var dto = parseObject(person, PersonDTO.class);
+            return dto;
+        });
+
+        return map;
+
     }
 
     public PersonDTO findById(Long id) {
@@ -54,6 +70,29 @@ public class PersonServices {
 
 
         return parseObject(repository.save(entity), PersonDTO.class);
+    }
+
+    @Transactional
+    public PersonDTO parciaUpdatePerson(Long id, PersonPatchDTO dto) {
+
+        Person person = repository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoudException("No records found for this ID"));
+
+        if (dto.name() != null) {
+            person.setName(dto.name());
+        }
+        if (dto.firstName() != null) {
+            person.setFirstName(dto.firstName());
+        }
+        if (dto.lastName() != null) {
+            person.setLastName(dto.lastName());
+        }
+        if (dto.address() != null) {
+            person.setAddress(dto.address());
+        }
+
+        return bookMapper.toPersoDTO(person);
+
     }
 
     public void deletePerson(Long id) {

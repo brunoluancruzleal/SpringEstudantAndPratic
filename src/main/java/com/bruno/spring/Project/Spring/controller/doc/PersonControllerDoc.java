@@ -4,7 +4,9 @@ import com.bruno.spring.Project.Spring.data.dto.PersonDTO;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import org.springframework.data.domain.Page;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -23,7 +25,11 @@ public interface PersonControllerDoc {
     @Operation(summary = "Find all people", description = "Returns a list of people")
     @ApiResponse(responseCode = "200", description = "Successful operation")
     @GetMapping(value = "/all", produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
-    List<PersonDTO> findAll();
+    ResponseEntity<Page<PersonDTO>> findAll(
+            @RequestParam(value = "page", defaultValue = "0") Integer page,
+            @RequestParam(value = "size", defaultValue = "12") Integer size,
+            @RequestParam(value = "deriction", defaultValue = "asc") String direction
+    );
 
     @Operation(summary = "Create a new person", description = "Creates a new person and returns the created entity")
     @ApiResponses(value = {
@@ -43,6 +49,9 @@ public interface PersonControllerDoc {
     })
     @PutMapping("/update")
     PersonDTO updatingPerson(@RequestBody PersonDTO person);
+
+
+
 
     @Operation(summary = "Delete a person by ID", description = "Deletes a person and returns no content")
     @ApiResponses(value = {
