@@ -1,5 +1,6 @@
 package com.bruno.spring.Project.Spring.exceptions.Handler;
 
+import com.bruno.spring.Project.Spring.exceptions.InvalidJwtAutenticationExeception;
 import com.bruno.spring.Project.Spring.exceptions.ResourceNotFoudException;
 import com.bruno.spring.Project.Spring.exceptions.ExceptionResponse;
 import org.springframework.http.HttpStatus;
@@ -36,5 +37,15 @@ public class GlobalExceptionHandling extends ResponseEntityExceptionHandler {
         );
 
         return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
+    }
+    @ExceptionHandler(InvalidJwtAutenticationExeception.class)
+    public final ResponseEntity<ExceptionResponse> handleInvalidJwtAutenticationException(Exception ex, WebRequest request) {
+        ExceptionResponse response = new ExceptionResponse(
+                new Date(),
+                ex.getMessage(),
+                request.getDescription(false)
+        );
+
+        return new ResponseEntity<>(response, HttpStatus.FORBIDDEN);
     }
 }
