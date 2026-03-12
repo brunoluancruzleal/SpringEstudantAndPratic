@@ -43,10 +43,10 @@ public class User implements UserDetails, Serializable {
             inverseJoinColumns = {
             @JoinColumn(name = "id_permission")
             })
-    private List<Permission> permissions;
+    private static List<Permission> permissions;
 
 
-    public List<String> getRoles(){
+    public static List<String> getRoles(){
         List<String > roles = new ArrayList<>();
         for (Permission permission  : permissions) {
             roles.add(permission.getDescription());

@@ -1,32 +1,27 @@
-2026-02-27T15:13:51.879-03:00  INFO 13840 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 13840 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-27T15:13:51.890-03:00  INFO 13840 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-27T15:13:52.005-03:00  INFO 13840 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-27T15:13:52.007-03:00  INFO 13840 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-27T15:13:53.791-03:00  INFO 13840 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-27T15:13:53.868-03:00  INFO 13840 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
-2026-02-27T15:13:56.267-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-27T15:13:56.298-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-27T15:13:56.301-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-27T15:13:56.393-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-27T15:13:56.393-03:00  INFO 13840 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4385 ms
-2026-02-27T15:13:57.158-03:00  INFO 13840 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-27T15:13:57.438-03:00  INFO 13840 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38b881bf
-2026-02-27T15:13:57.441-03:00  INFO 13840 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-27T15:13:57.552-03:00  INFO 13840 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
-2026-02-27T15:13:57.724-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 10 migrations (execution time 00:00.138s)
-2026-02-27T15:13:57.739-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 5
-2026-02-27T15:13:57.764-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Migrating schema `spring_project` to version "6 - Create Table Permission"
-2026-02-27T15:13:57.861-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Migrating schema `spring_project` to version "7 - Insert Data In Permission"
-2026-02-27T15:13:57.894-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Migrating schema `spring_project` to version "8 - Create Table Users"
-2026-02-27T15:13:57.977-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Migrating schema `spring_project` to version "9 - Insert Data In Users"
-2026-02-27T15:13:58.014-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Migrating schema `spring_project` to version "10 - Create Table User Permission"
-2026-02-27T15:13:58.070-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Successfully applied 5 migrations to schema `spring_project`, now at version v10 (execution time 00:00.120s)
-2026-02-27T15:13:58.426-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-27T15:13:58.560-03:00  INFO 13840 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
-2026-02-27T15:13:58.595-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-02-27T15:13:59.036-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-27T15:13:59.138-03:00  WARN 13840 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-02-27T15:13:59.155-03:00  INFO 13840 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-03-10T15:58:24.840-03:00  INFO 4628 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 4628 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
+2026-03-10T15:58:24.867-03:00  INFO 4628 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
+2026-03-10T15:58:25.059-03:00  INFO 4628 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-10T15:58:25.062-03:00  INFO 4628 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-10T15:58:27.560-03:00  INFO 4628 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-10T15:58:27.762-03:00  INFO 4628 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 164 ms. Found 3 JPA repository interfaces.
+2026-03-10T15:58:29.697-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-10T15:58:29.730-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-10T15:58:29.731-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-03-10T15:58:29.841-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-10T15:58:29.842-03:00  INFO 4628 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4779 ms
+2026-03-10T15:58:30.773-03:00  INFO 4628 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-10T15:58:31.281-03:00  INFO 4628 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2985dc8f
+2026-03-10T15:58:31.285-03:00  INFO 4628 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-10T15:58:31.410-03:00  INFO 4628 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
+2026-03-10T15:58:31.610-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 10 migrations (execution time 00:00.148s)
+2026-03-10T15:58:31.637-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 10
+2026-03-10T15:58:31.650-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
+2026-03-10T15:58:31.901-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10T15:58:31.983-03:00  INFO 4628 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-03-10T15:58:32.048-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-10T15:58:32.500-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-10T15:58:32.571-03:00  WARN 4628 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-03-10T15:58:32.594-03:00  INFO 4628 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 5.5.5
@@ -34,50 +29,101 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-02-27T15:14:00.245-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-27T15:14:00.248-03:00  INFO 13840 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-27T15:14:01.215-03:00  WARN 13840 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-27T15:14:02.633-03:00  WARN 13840 --- [Project-Spring] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+2026-03-10T15:58:34.031-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10T15:58:34.034-03:00  INFO 4628 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10T15:58:34.053-03:00  WARN 4628 --- [Project-Spring] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'jwtTokenProvider': Error creating bean with name 'jwtTokenProvider': Injection of autowired dependencies failed
+2026-03-10T15:58:34.053-03:00  INFO 4628 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10T15:58:34.060-03:00  INFO 4628 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-10T15:58:34.068-03:00  INFO 4628 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-10T15:58:34.072-03:00  INFO 4628 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-03-10T15:58:34.093-03:00  INFO 4628 --- [Project-Spring] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
 
-Using generated security password: 32da9e8d-39b1-4b7d-9d51-8ee332b9c501
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-10T15:58:34.130-03:00 ERROR 4628 --- [Project-Spring] [restartedMain] o.s.boot.SpringApplication               : Application run failed
 
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'jwtTokenProvider': Error creating bean with name 'jwtTokenProvider': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990) ~[spring-context-6.2.15.jar:6.2.15]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.15.jar:6.2.15]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.10.jar:3.5.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.10.jar:3.5.10]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.10.jar:3.5.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.10.jar:3.5.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.10.jar:3.5.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.10.jar:3.5.10]
+	at com.bruno.spring.Project.Spring.Statup.main(Statup.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.10.jar:3.5.10]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtTokenProvider': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:515) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784) ~[spring-beans-6.2.15.jar:6.2.15]
+	... 27 common frames omitted
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'jwt.secret-key' in value "${jwt.secret-key}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.15.jar:6.2.15]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:298) ~[spring-core-6.2.15.jar:6.2.15]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:131) ~[spring-core-6.2.15.jar:6.2.15]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.15.jar:6.2.15]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293) ~[spring-core-6.2.15.jar:6.2.15]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264) ~[spring-core-6.2.15.jar:6.2.15]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:186) ~[spring-context-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:970) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1675) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-6.2.15.jar:6.2.15]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509) ~[spring-beans-6.2.15.jar:6.2.15]
+	... 37 common frames omitted
 
-2026-02-27T15:14:02.664-03:00  INFO 13840 --- [Project-Spring] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-02-27T15:14:03.355-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-02-27T15:14:03.402-03:00  INFO 13840 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-02-27T15:14:03.420-03:00  INFO 13840 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 12.52 seconds (process running for 13.654)
-2026-02-27T15:14:03.432-03:00  WARN 13840 --- [Project-Spring] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
-2026-02-27T15:14:03.433-03:00  WARN 13840 --- [Project-Spring] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
-2026-02-27T15:15:26.498-03:00  INFO 13840 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-02-27T15:15:26.601-03:00  INFO 13840 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-02-27T15:15:26.611-03:00  INFO 13840 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-02-27T15:15:26.625-03:00  INFO 13840 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-27T15:15:26.658-03:00  INFO 13840 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-02-27T15:28:37.299-03:00  INFO 636 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 636 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
-2026-02-27T15:28:37.308-03:00  INFO 636 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
-2026-02-27T15:28:37.452-03:00  INFO 636 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-27T15:28:37.452-03:00  INFO 636 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-27T15:28:40.949-03:00  INFO 636 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-27T15:28:41.131-03:00  INFO 636 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 2 JPA repository interfaces.
-2026-02-27T15:28:43.449-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-02-27T15:28:43.487-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-27T15:28:43.488-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-2026-02-27T15:28:43.641-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-27T15:28:43.642-03:00  INFO 636 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6189 ms
-2026-02-27T15:28:44.481-03:00  INFO 636 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-27T15:28:44.987-03:00  INFO 636 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@423cd993
-2026-02-27T15:28:44.993-03:00  INFO 636 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-27T15:28:45.426-03:00  INFO 636 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
-2026-02-27T15:28:45.790-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 10 migrations (execution time 00:00.240s)
-2026-02-27T15:28:45.842-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 10
-2026-02-27T15:28:45.856-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
-2026-02-27T15:28:46.361-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-02-27T15:28:46.634-03:00  INFO 636 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
-2026-02-27T15:28:46.716-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-02-27T15:28:47.538-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-27T15:28:47.697-03:00  WARN 636 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2026-02-27T15:28:47.771-03:00  INFO 636 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-03-10T16:00:28.328-03:00  INFO 2576 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 2576 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
+2026-03-10T16:00:28.332-03:00  INFO 2576 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
+2026-03-10T16:00:28.440-03:00  INFO 2576 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-10T16:00:28.440-03:00  INFO 2576 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-10T16:00:30.444-03:00  INFO 2576 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-10T16:00:30.616-03:00  INFO 2576 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 3 JPA repository interfaces.
+2026-03-10T16:00:32.141-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-10T16:00:32.179-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-10T16:00:32.180-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-03-10T16:00:32.312-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-10T16:00:32.313-03:00  INFO 2576 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3872 ms
+2026-03-10T16:00:33.064-03:00  INFO 2576 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-10T16:00:33.384-03:00  INFO 2576 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40a667b1
+2026-03-10T16:00:33.386-03:00  INFO 2576 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-10T16:00:33.569-03:00  INFO 2576 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
+2026-03-10T16:00:33.666-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 10 migrations (execution time 00:00.062s)
+2026-03-10T16:00:33.680-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 10
+2026-03-10T16:00:33.684-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
+2026-03-10T16:00:33.805-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10T16:00:33.862-03:00  INFO 2576 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-03-10T16:00:33.925-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-10T16:00:34.266-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-10T16:00:34.324-03:00  WARN 2576 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-03-10T16:00:34.342-03:00  INFO 2576 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 5.5.5
@@ -85,23 +131,74 @@ This generated password is for development use only. Your security configuration
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-02-27T15:28:50.201-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-27T15:28:50.209-03:00  INFO 636 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-27T15:28:51.822-03:00  WARN 636 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-27T15:28:53.817-03:00  WARN 636 --- [Project-Spring] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+2026-03-10T16:00:35.413-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10T16:00:35.418-03:00  INFO 2576 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10T16:00:36.293-03:00  WARN 2576 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-10T16:00:37.053-03:00  WARN 2576 --- [Project-Spring] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 3a16954d-b188-440a-91ea-4b99e7c3703e
+Using generated security password: e241098e-7edb-4e40-a7a1-c154d866586d
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2026-02-27T15:28:53.828-03:00  INFO 636 --- [Project-Spring] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-02-27T15:28:54.533-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-02-27T15:28:54.674-03:00  INFO 636 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-02-27T15:28:54.708-03:00  INFO 636 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 19.595 seconds (process running for 20.806)
-2026-02-27T15:28:54.716-03:00  WARN 636 --- [Project-Spring] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
-2026-02-27T15:28:54.717-03:00  WARN 636 --- [Project-Spring] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
-2026-02-27T15:30:51.433-03:00  INFO 636 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-02-27T15:30:51.491-03:00  INFO 636 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-02-27T15:30:51.498-03:00  INFO 636 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-02-27T15:30:51.504-03:00  INFO 636 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-02-27T15:30:51.517-03:00  INFO 636 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-10T16:00:37.074-03:00  INFO 2576 --- [Project-Spring] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-10T16:00:38.272-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-10T16:00:38.322-03:00  INFO 2576 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-10T16:00:38.347-03:00  INFO 2576 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 11.059 seconds (process running for 11.892)
+2026-03-10T16:00:38.359-03:00  WARN 2576 --- [Project-Spring] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-10T16:00:38.359-03:00  WARN 2576 --- [Project-Spring] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-10T16:00:59.479-03:00  INFO 2576 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-10T16:00:59.549-03:00  INFO 2576 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-10T16:00:59.555-03:00  INFO 2576 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10T16:00:59.563-03:00  INFO 2576 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-10T16:00:59.642-03:00  INFO 2576 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-10T16:01:06.332-03:00  INFO 7084 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Starting Statup using Java 17.0.12 with PID 7084 (C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring\target\classes started by Bruno in C:\Users\Bruno\Desktop\Project spring\Project Spring\Project-Spring)
+2026-03-10T16:01:06.342-03:00  INFO 7084 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : No active profile set, falling back to 1 default profile: "default"
+2026-03-10T16:01:06.462-03:00  INFO 7084 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-10T16:01:06.462-03:00  INFO 7084 --- [Project-Spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-10T16:01:08.025-03:00  INFO 7084 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-10T16:01:08.177-03:00  INFO 7084 --- [Project-Spring] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 3 JPA repository interfaces.
+2026-03-10T16:01:09.492-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-10T16:01:09.527-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-10T16:01:09.528-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-03-10T16:01:09.594-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-10T16:01:09.595-03:00  INFO 7084 --- [Project-Spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3132 ms
+2026-03-10T16:01:10.289-03:00  INFO 7084 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-10T16:01:10.488-03:00  INFO 7084 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@601b53d9
+2026-03-10T16:01:10.489-03:00  INFO 7084 --- [Project-Spring] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-10T16:01:10.592-03:00  INFO 7084 --- [Project-Spring] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/Spring_project (MySQL 5.5)
+2026-03-10T16:01:10.703-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 10 migrations (execution time 00:00.073s)
+2026-03-10T16:01:10.769-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `spring_project`: 10
+2026-03-10T16:01:10.773-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `spring_project` is up to date. No migration necessary.
+2026-03-10T16:01:11.053-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10T16:01:11.190-03:00  INFO 7084 --- [Project-Spring] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-03-10T16:01:11.293-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-10T16:01:11.631-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-10T16:01:11.686-03:00  WARN 7084 --- [Project-Spring] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-03-10T16:01:11.702-03:00  INFO 7084 --- [Project-Spring] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-10T16:01:12.778-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10T16:01:12.781-03:00  INFO 7084 --- [Project-Spring] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10T16:01:13.489-03:00  WARN 7084 --- [Project-Spring] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-10T16:01:14.141-03:00  WARN 7084 --- [Project-Spring] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ed6dfc69-8988-44a2-85d8-3fd95fd1ddce
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-10T16:01:14.158-03:00  INFO 7084 --- [Project-Spring] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-10T16:01:15.500-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-10T16:01:15.571-03:00  INFO 7084 --- [Project-Spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-10T16:01:15.586-03:00  INFO 7084 --- [Project-Spring] [restartedMain] com.bruno.spring.Project.Spring.Statup   : Started Statup in 10.281 seconds (process running for 11.223)
+2026-03-10T16:01:15.594-03:00  WARN 7084 --- [Project-Spring] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-03-10T16:01:15.595-03:00  WARN 7084 --- [Project-Spring] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-03-10T16:02:45.018-03:00  INFO 7084 --- [Project-Spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-10T16:02:45.091-03:00  INFO 7084 --- [Project-Spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-10T16:02:45.107-03:00  INFO 7084 --- [Project-Spring] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10T16:02:45.118-03:00  INFO 7084 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-10T16:02:45.143-03:00  INFO 7084 --- [Project-Spring] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
