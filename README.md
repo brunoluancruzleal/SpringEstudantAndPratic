@@ -1,4 +1,4 @@
-# 🚀 Java Backend Lab: Sistema de Gestão de [Nome do Projeto]
+# 🚀 Java Backend : Estudando e apredendo 
 
 Este repositório é meu laboratório principal de estudos e desenvolvimento backend, onde aplico conceitos avançados de engenharia de software utilizando o ecossistema Java. O foco é a criação de APIs robustas, escaláveis e seguindo as melhores práticas de mercado (Clean Code e SOLID).
 
