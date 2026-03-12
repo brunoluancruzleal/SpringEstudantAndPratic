@@ -9,7 +9,7 @@ Este repositório é meu laboratório principal de estudos e desenvolvimento bac
 - **Linguagem:** Java (JDK 17+)
 - **Framework Principal:** Spring Boot 3
 - **Persistência de Dados:** Spring Data JPA / Hibernate
-- **Bancos de Dados:** PostgreSQL (Produção) | MySQL (Desenvolvimento)
+- **Bancos de Dados:** MySQL (Desenvolvimento)
 - **Segurança e Validação:** Bean Validation (Hibernate Validator)
 - **Arquitetura:** Padrão MVC (Model-View-Controller)
 - **Padrões de Projeto:** DTO Pattern (Data Transfer Object)
@@ -44,4 +44,4 @@ Para acessar, certifique-se de que a aplicação está rodando e acesse:
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/brunoluancruzleal/NOME_DO_REPOSITORIO.git](https://github.com/brunoluancruzleal/NOME_DO_REPOSITORIO.git)
+   git clone [https://github.com/brunoluancruzleal/SpringEstudantAndPratic.git](https://github.com/brunoluancruzleal/SpringEstudantAndPratic.git)
